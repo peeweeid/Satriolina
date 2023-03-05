@@ -1,11 +1,30 @@
+import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
-
+import f1 from '../public/flower1.png'
+import f1br from '../public/flower1br.png'
+import Mempelai from '../components/mempelai.js'
+import Tanggal from '../components/Tanggal.js'
+import Hadiah from '../components/Hadiah.js'
+import Cover from '../components/Cover.js'
+import { useEffect } from 'react';
+import TodoList from '../components/TodoList.js'
+import TodoForm from '../components/TodoForm.js'
+import Countdown from '../components/countdown.js'
+import Peta from '../components/Peta.js'
+import Closingan from '../components/Closingan.js'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default function Home() {
+  const newYear = new Date("Oct 15,2023").getTime()
+  useEffect(() => {
+    AOS.init({
+      easing: 'ease-out-cubic',
+      once: true,
+      offset: 50,
+      delay: 50,
+    });
+  });
   return (
     <>
       <Head>
@@ -14,110 +33,41 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.tsx</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
+      {/* cover */}
+      <Cover/>
+      {/* keterangan mempelai */}
+      <Mempelai />
+      {/* tanggal */}
+      <Tanggal />
+      {/* countdown */}
+      <section className='bg-primary overflow-hidden bg-fixed h-52  lg:h-72 flex items-center justify-center'>
+        <div className='container px-4 py-4 '>
+          <h1 className='mb-5 font-bold mt-5 mx-auto text-2xl lg:text-3xl text-center font-Georgia text-white'>15 Oktober 2023</h1>
+           <Countdown newYear={newYear}/>
         </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+      </section>
+      {/* kirim hadiah */}
+      <Hadiah/>
+      {/* ucapan dan doa */}
+      <section className='bg-secondary relative overflow-hidden   '>
+      <Image src={f1} alt="" className='w-1/4  absolute z-30 scale-50' data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500"/>
+       <div className='container px-4 py-12'>
+       <h1 className='px-4 text-center mt-10 mb-10 lg:mt-10 text-xl lg:text-2xl font-Georgia font-bold text-primary'>Kirim Hadiah</h1>
+          <div className='bg-fourth lg:w-[600px] mx-auto rounded-xl w-96 py-4' data-aos="flip-left" data-aos-duration="1500">
+            <TodoForm/>
+              <div className='lg:px-8 px-4 py-2 lg:py-4 rounded-lg'>
+                <TodoList/>
+              </div>
+            </div>
+       </div>
+      <Image src={f1br} alt="" className='w-1/4 right-0 bottom-0 absolute z-30 lg:w-56' data-aos="fade-up" data-aos-easing="linear"  data-aos-duration="1500"/>
+      </section>
+      {/* peta */}
+      
+          <Peta/>
+          {/* closingan */}
+          <Closingan/>
+     
     </>
   )
 }

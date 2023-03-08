@@ -10,7 +10,7 @@ import Cover from '../components/Cover.js'
 import { useEffect } from 'react';
 import TodoList from '../components/TodoList.js'
 import TodoForm from '../components/TodoForm.js'
-import Countdown from '../components/countdown.js'
+import Countdown from '../components/Countdown.js'
 import Peta from '../components/Peta.js'
 import Closingan from '../components/Closingan.js'
 import AOS from 'aos';

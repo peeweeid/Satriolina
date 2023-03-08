@@ -19,10 +19,10 @@ function Hadiah() {
         });
       });
   return (
-    <section className='bg-secondary  relative overflow-hidden'>
+    <section className='bg-wallwed  relative overflow-hidden'>
       <Image src={f1tr} alt="" className='w-1/4 right-0 absolute z-30' data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500"/>
       <div className='container lg:w-[1100px] flex justify-center px-4 py-12'>
-        <div className='bg-fourth lg:w-[1000px] self-center rounded-xl w-96 py-4' data-aos="flip-left" data-aos-duration="1500">
+        <div className='bg-fourth lg:w-[1000px] self-center rounded-xl w-80 py-4' data-aos="flip-left" data-aos-duration="1500">
           <h1 className='px-4 text-center mt-10 lg:mt-10 text-xl lg:text-2xl font-Georgia font-bold text-primary'>Kirim Hadiah</h1>
           <div className='flex flex-wrap px-4'>
               <div className='w-full lg:w-1/2 px-10 py-4'>

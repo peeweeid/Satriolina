@@ -16,10 +16,10 @@ function Tanggal() {
         });
       });
   return (
-    <section className='bg-secondary  relative overflow-hidden'>
+    <section className='bg-wallwed2  relative overflow-hidden'>
       <Image src={f1tr} alt="" className='w-1/4 right-0 absolute z-30' data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500"/> 
       <div className='container lg:w-[1100px] flex justify-center px-4 py-12'>
-        <div className='bg-fourth lg:w-[1000px] self-center rounded-xl w-96 py-4' data-aos="flip-left" data-aos-duration="1500">
+        <div className='bg-fourth lg:w-[1000px] self-center rounded-xl w-80 py-4' data-aos="flip-left" data-aos-duration="1500">
           <h1 className='px-4 text-center mt-10 lg:mt-10 text-xl lg:text-2xl font-Georgia font-bold text-primary'>Assallamualaikum Wr.Wb</h1>
           <p className='px-8 lg:px-10 font-Georgia lg:text-lg text-center text-sm mt-10'> sebagai ungkapan bahagia dan rasa syukur atas karuniaNya,
               kami bermaksud menyelenggarakan resepsi

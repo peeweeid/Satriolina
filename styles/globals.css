@@ -10,3 +10,8 @@
     font-family: "Georgia";
     src: url("../public/Georgia.ttf");
   }
+
+  @font-face {
+    font-family: "GeorgiaI";
+    src: url("../public/GeorgiaI.ttf");
+  }

@@ -40,7 +40,7 @@ export default function Home() {
       {/* tanggal */}
       <Tanggal />
       {/* countdown */}
-      <section className='bg-primary overflow-hidden bg-fixed h-52  lg:h-72 flex items-center justify-center'>
+      <section className='bg-primary bg-contain  overflow-hidden bg-fixed h-52  lg:h-72 flex items-center justify-center'>
         <div className='container px-4 py-4 '>
           <h1 className='mb-5 font-bold mt-5 mx-auto text-2xl lg:text-3xl text-center font-Georgia text-white'>15 Oktober 2023</h1>
            <Countdown newYear={newYear}/>
@@ -49,11 +49,11 @@ export default function Home() {
       {/* kirim hadiah */}
       <Hadiah/>
       {/* ucapan dan doa */}
-      <section className='bg-secondary relative overflow-hidden   '>
+      <section className='bg-wallwed1 relative overflow-hidden   '>
       <Image src={f1} alt="" className='w-1/4  absolute z-30 scale-50' data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500"/>
        <div className='container px-4 py-12'>
-       <h1 className='px-4 text-center mt-10 mb-10 lg:mt-10 text-xl lg:text-2xl font-Georgia font-bold text-primary'>Kirim Hadiah</h1>
-          <div className='bg-fourth lg:w-[600px] mx-auto rounded-xl w-96 py-4' data-aos="flip-left" data-aos-duration="1500">
+       <h1 className='px-4 text-center mt-10 mb-10 lg:mt-10 text-xl lg:text-2xl font-Georgia font-bold text-primary'>Ucapan & Doa</h1>
+          <div className='bg-fourth lg:w-[600px] mx-auto rounded-xl w-80 py-4' data-aos='flip-left'  data-aos-duration="1500">
             <TodoForm/>
               <div className='lg:px-8 px-4 py-2 lg:py-4 rounded-lg'>
                 <TodoList/>

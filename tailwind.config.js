@@ -24,7 +24,15 @@ module.exports = {
       fontFamily :{
         'Authentic' : 'Authentic',
         'Georgia' : 'Georgia',
-      }
+        'GeorgiaI' : 'GeorgiaI',
+      },
+      backgroundImage: {
+        'wallwed': "url('../public/wallwed1.jpg')",
+        'wallwed1': "url('../public/wallwed2.jpg')",
+        'wallwed2': "url('../public/wallwed3.jpg')",
+       
+        
+      },
       
     },
   },

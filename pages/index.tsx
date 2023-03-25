@@ -16,7 +16,7 @@ import Closingan from '../components/Closingan.js'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 export default function Home() {
-  const newYear = new Date("Oct 15,2023").getTime()
+  const newYear = new Date("Oct 07,2023").getTime()
   useEffect(() => {
     AOS.init({
       easing: 'ease-out-cubic',
@@ -42,7 +42,7 @@ export default function Home() {
       {/* countdown */}
       <section className='bg-primary bg-contain  overflow-hidden bg-fixed h-52  lg:h-72 flex items-center justify-center'>
         <div className='container px-4 py-4 '>
-          <h1 className='mb-5 font-bold mt-5 mx-auto text-2xl lg:text-3xl text-center font-Georgia text-white'>15 Oktober 2023</h1>
+          <h1 className='mb-5 font-bold mt-5 mx-auto text-2xl lg:text-3xl text-center font-Georgia text-white'>7 Oktober 2023</h1>
            <Countdown newYear={newYear}/>
         </div>
       </section>

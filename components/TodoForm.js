@@ -19,6 +19,7 @@ const TodoForm = () => {
    <span className='text-lg font-Georgia text-primary font-bold'> Nama </span>
   <input type="title" name="title" label="title" id="title"
   value={todo.title}
+required={true} minLength={2} maxLength={10} 
   onChange={e => setTodo({...todo, title: e.target.value})} 
   className="mt-1 mb-5 px-3 py-2 bg-secondary border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-2xl sm:text-sm focus:ring-1" placeholder="isi nama anda" />
   
@@ -26,6 +27,7 @@ const TodoForm = () => {
   <input type="detail" name="detail" label="detail" id="detail"
   value={todo.detail} 
   onChange={e => setTodo({...todo, detail: e.target.value})}
+  required={true} minLength={2} maxLength={10} 
   className="mt-1 px-3 h-24 py-2 bg-secondary border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-2xl sm:text-sm focus:ring-1" placeholder="ucapan dan doa" />
   <button onClick={onSubmit} className='px-2 py-2 rounded-xl bg-sky-600 mt-2 text-white font-bold hover:bg-sky-500' >Tambah Ucapan</button>
   

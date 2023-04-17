@@ -5,7 +5,7 @@ import f2r from '../public/flower2r.png'
 function Peta() {
   return (
     
-    <section className='bg-wallwed2  relative overflow-hidden' id='peta'>
+    <section className='bg-wallwed2 lg:bg-cover bg-auto relative overflow-hidden' id='peta'>
       <h1 className='px-4 text-center mt-10 lg:mt-10 text-xl lg:text-2xl font-Georgia font-bold text-primary'>Lokasi</h1>
      < div className='justify-center items-center flex flex-wrap'>
     <Image src={f2r} alt="" className='w-1/4 lg:w-1/6  z-30' data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500"/>

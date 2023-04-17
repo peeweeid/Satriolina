@@ -16,7 +16,7 @@ function Mempelai() {
         });
       });
   return (
-    <section className='bg-wallwed1 h-[700px] lg:h-[800px] relative overflow-hidden'>
+    <section className='bg-wallwed1 h-[700px] lg:h-[800px] lg:bg-cover bg-auto relative overflow-hidden'>
       <Image src={f1} alt="" className='w-1/4  absolute z-30' data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500"/>
         <div className='container lg:w-[1100px] flex justify-center px-4 py-12'>
           <div className='bg-fourth lg:w-[1000px] self-center rounded-xl w-96 py-4' data-aos="flip-left" data-aos-duration="1500">

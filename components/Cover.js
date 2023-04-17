@@ -15,7 +15,7 @@ function Cover() {
         });
       });
   return (
-    <section className='bg-wallwed lg:h-[1100px] h-[800px] lg:bg-cover bg-contain overflow-hidden'>
+    <section className='bg-wallwed lg:h-[1100px] h-[800px] lg:bg-cover bg-auto overflow-hidden'>
         <div className='container flex flex-wrap justify-center items-center lg:py-0 py-8 mt-6 lg:mt-0'>
           <Image src={f3} alt="" className='w-1/4 ' data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500"/>
           <div className='bg-primary lg:h-[1100px] h-[600px] lg:rounded-none rounded-full w-1/2 mx-auto'>

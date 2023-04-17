@@ -16,7 +16,7 @@ function Tanggal() {
         });
       });
   return (
-    <section className='bg-wallwed2  relative overflow-hidden'>
+    <section className='bg-wallwed2 lg:bg-cover bg-auto relative overflow-hidden'>
       <Image src={f1tr} alt="" className='w-1/4 right-0 absolute z-30' data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500"/> 
       <div className='container lg:w-[1100px] flex justify-center px-4 py-12'>
         <div className='bg-fourth lg:w-[1000px] self-center rounded-xl w-80 py-4' data-aos="flip-left" data-aos-duration="1500">

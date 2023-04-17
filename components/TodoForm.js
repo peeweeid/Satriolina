@@ -17,10 +17,11 @@ const TodoForm = () => {
   
     <div className='container max-w-md mb-10'>
    <span className='text-lg font-Georgia text-primary font-bold'> Nama </span>
-      <form>
+      <form class="form" onSubmit={event => { event.preventDefault(); onSubmit(); }} data-validation-minmaxlength-message="This message will override the default rule message, and only use [minToken].">  
+    <fieldset>
   <input type="title" name="title" label="title" id="title"
   value={todo.title}
-required={true} minLength={1} maxLength={10} 
+required={true} minLength={3} maxLength={10} 
   onChange={e => setTodo({...todo, title: e.target.value})} 
   className="mt-1 mb-5 px-3 py-2 bg-secondary border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-2xl sm:text-sm focus:ring-1" placeholder="isi nama anda" />
   
@@ -28,10 +29,11 @@ required={true} minLength={1} maxLength={10}
   <input type="detail" name="detail" label="detail" id="detail"
   value={todo.detail} 
   onChange={e => setTodo({...todo, detail: e.target.value})}
-  required={true} minLength={1} maxLength={10} 
+  required={true} minLength={1} maxLength={140} 
   className="mt-1 px-3 h-24 py-2 bg-secondary border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-2xl sm:text-sm focus:ring-1" placeholder="ucapan dan doa" />
-  <button onClick={onSubmit} className='px-2 py-2 rounded-xl bg-sky-600 mt-2 text-white font-bold hover:bg-sky-500' >Tambah Ucapan</button>
-  </form>
+  <button type="submit" className='px-2 py-2 rounded-xl bg-sky-600 mt-2 text-white font-bold hover:bg-sky-500' >Tambah Ucapan</button>
+</fieldset>
+</form>
   </div>
   
   )

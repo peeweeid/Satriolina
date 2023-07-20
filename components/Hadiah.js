@@ -29,8 +29,8 @@ function Hadiah() {
                   <div className='bg-white rounded-xl shadow-lg px-8 py-4'>
                     <Image src={bca} alt='' className='scale-75 mx-auto mb-8'/>
                     <h1 className='text-center font-Georgia text-lg font-bold mt-2 text-primary'>Satrio Adi Wiguno</h1>
-                    <h1 className='text-center font-Georgia text-ms  text-black'>0808080808</h1>
-                    <CopyToClipboard text="085878632678">
+                    <h1 className='text-center font-Georgia text-ms  text-black'> 8465269479</h1>
+                    <CopyToClipboard text="8465269479">
                     <button className='mt-4 rounded-lg bg-primary hover:bg-third py-1 px-8 mx-auto text-white w-full font-Georgia'>Copy Rekening</button>
                     </CopyToClipboard>
                   </div>
@@ -38,9 +38,9 @@ function Hadiah() {
               <div className='w-full lg:w-1/2 px-10 py-4'>
                   <div className='bg-white rounded-xl shadow-lg px-8 py-4'>
                     <Image src={bni} alt='' className='scale-75 mx-auto mb-8'/>
-                    <h1 className='text-center font-Georgia text-lg font-bold mt-2 text-primary'>Satrio Adi Wiguno</h1>
-                    <h1 className='text-center font-Georgia text-ms  text-black'>0808080808</h1>
-                    <CopyToClipboard text="085878632678">
+                    <h1 className='text-center font-Georgia text-lg font-bold mt-2 text-primary'>Lina Azhari</h1>
+                    <h1 className='text-center font-Georgia text-ms  text-black'>1350017198274</h1>
+                    <CopyToClipboard text="1350017198274">
                     <button className='mt-4 rounded-lg bg-primary hover:bg-third py-1 px-8 mx-auto text-white w-full font-Georgia'>Copy Rekening</button>
                     </CopyToClipboard>
                   </div>

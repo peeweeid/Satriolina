@@ -5,6 +5,7 @@ import f1tr from '../public/flower1tr.png'
 
 import bca from '../public/bca.png'
 import bni from '../public/bni.png'
+import mandiri from '../public/mandiri.png'
 import { useEffect } from 'react';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import AOS from 'aos';
@@ -37,7 +38,7 @@ function Hadiah() {
               </div>
               <div className='w-full lg:w-1/2 px-10 py-4'>
                   <div className='bg-white rounded-xl shadow-lg px-8 py-4'>
-                    <Image src={bni} alt='' className='scale-75 mx-auto mb-8'/>
+                    <Image src={mandiri} alt='' className='scale-75 mx-auto mb-8'/>
                     <h1 className='text-center font-Georgia text-lg font-bold mt-2 text-primary'>Lina Azhari</h1>
                     <h1 className='text-center font-Georgia text-ms  text-black'>1350017198274</h1>
                     <CopyToClipboard text="1350017198274">

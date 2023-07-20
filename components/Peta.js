@@ -11,7 +11,7 @@ function Peta() {
     <Image src={f2r} alt="" className='w-1/4 lg:w-1/6  z-30' data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500"/>
     
     <div className='container  w-2/6 lg:w-4/6 flex justify-center px-4 py-4 lg:py-12 mb-10'>
-        <div className="px-4 py-4 bg-third rounded-xl"> </div>
+        <div className="px-4 py-4 bg-third rounded-xl"> <iframe className='w-[250px] mx-auto lg:w-[500px] lg:h-[500px] h-[600px] rounded-xl' id='gmap_canvas' src='https://maps.google.com/maps?q=7°02'02.1"S 110°25'33.4'E&t=&z=20&ie=UTF8&iwloc=&output=embed'  ></iframe> </div>
     </div>
     <Image src={f2l} alt="" className='w-1/4 lg:w-1/6  z-30' data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500"/>
     </div>

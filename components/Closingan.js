@@ -24,7 +24,7 @@ function Closingan() {
           <h1 className='text-center font-thin text-white font-Authentic mt-10 lg:mt-16 text-7xl lg:text-9xl  'data-aos="zoom-in-down" data-aos-duration="1000">Lina</h1>
           <h1 className='text-center font-thin text-white font-Authentic  text-5xl  lg:text-7xl'data-aos="zoom-in-down" data-aos-duration="1000">&</h1>
           <h1 className='text-center font-thin text-white font-Authentic  text-7xl  lg:text-9xl'data-aos="zoom-in-down" data-aos-duration="1000">Satrio</h1>
-          <h1 className='text-center font-thin text-white font-Georgia  text-2xl mt-20 lg:mt-36 lg:text-3xl'data-aos="fade-up" data-aos-duration="1000">Lensa Design</h1>
+          <h1 className='text-center font-thin text-white font-Georgia  text-2xl mt-20 lg:mt-36 lg:text-3xl'data-aos="fade-up" data-aos-duration="1000"></h1>
          <div className='px-4 py-4 lg:w-60 mx-auto'><Link href={'https://www.instagram.com/lensa.design2/'}> <h1 className='text-center mx-auto py-2  font-thin text-primary hover:text-slate-500 font-Georgia shadow-xl text-sm rounded-lg bg-secondary hover:bg-third lg:text-lg' data-aos="fade-up" data-aos-duration="1000">@lensa.design2</h1></Link> 
          </div>
       </div>

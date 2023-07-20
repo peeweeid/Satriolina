@@ -36,7 +36,7 @@ function Tanggal() {
                          <span className='text-primary'>|</span>
                          <span className='px-2 text-primary text-ms font-Georgia'>Oktober</span> 
                       </div>
-                    <h1 className='text-center font-Georgia text-xs mt-4 text-primary'>Pukul 09.00 WIB -Selesei</h1>
+                    <h1 className='text-center font-Georgia text-xs mt-4 text-primary'>Pukul 08.00 - 10.00 WIB</h1>
                     <h1 className='text-center font-Georgia text-ms font-bold mt-2 text-primary'>Balai Pertemuan</h1>
                     <h1 className='text-center font-Georgia text-xs  text-black'>Gedung Bina Sejahtera RW 6 JL.Jangli Perbalan No 157</h1>
                   <Link href={'#peta'}>  <button className='mt-4 rounded-lg bg-primary hover:bg-third py-1 px-8 mx-auto text-white w-full font-Georgia'>Lokasi</button></Link>
@@ -52,7 +52,7 @@ function Tanggal() {
                          <span className='text-primary'>|</span>
                          <span className='px-2 text-primary text-ms font-Georgia'>Oktober</span> 
                       </div>
-                    <h1 className='text-center font-Georgia text-xs mt-4 text-primary'>Pukul 09.00 WIB -Selesei</h1>
+                    <h1 className='text-center font-Georgia text-xs mt-4 text-primary'>Pukul 11.00 -14.00  WIB</h1>
                     <h1 className='text-center font-Georgia text-ms font-bold mt-2 text-primary'>Balai Pertemuan</h1>
                     <h1 className='text-center font-Georgia text-xs  text-black'>Gedung Bina Sejahtera RW 6 JL.Jangli Perbalan No 157</h1>
                     <Link href={'#peta'}>  <button className='mt-4 rounded-lg hover:bg-third bg-primary py-1 px-8 mx-auto text-white w-full font-Georgia'>Lokasi</button></Link>

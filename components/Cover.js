@@ -26,7 +26,7 @@ function Cover() {
               <h1 className='text-center font-thin text-white font-Authentic  text-5xl  lg:text-7xl'data-aos="zoom-in-down" data-aos-duration="1000">&</h1>
               <h1 className='text-center font-thin text-white font-Authentic  text-7xl  lg:text-9xl'data-aos="zoom-in-down" data-aos-duration="1000">Satrio</h1>
               <h1 className='text-center font-thin text-white font-Georgia  text-2xl  mt-14 lg:mt-36 lg:text-3xl'data-aos="fade-up" data-aos-duration="1000">Oktober</h1>
-              <h1 className='text-center font-thin text-white font-Georgia  text-base   lg:text-lg'data-aos="fade-up" data-aos-duration="1000">15.10.2023</h1>
+              <h1 className='text-center font-thin text-white font-Georgia  text-base   lg:text-lg'data-aos="fade-up" data-aos-duration="1000">07.10.2023</h1>
           </div>
           <Image src={f4} alt="" className='w-1/4 ' data-aos="fade-down" data-aos-easing="linear"  data-aos-duration="1500"/>
         </div>

@@ -32,7 +32,7 @@ function Tanggal() {
                       <div className='flex items-center justify-center'>
                          <span className='px-2 text-primary text-ms font-Georgia'>Sabtu</span>
                          <span className='text-primary'>|</span>
-                         <span className='px-2 text-primary text-2xl font-bold font-Georgia'>28</span>
+                         <span className='px-2 text-primary text-2xl font-bold font-Georgia'>07</span>
                          <span className='text-primary'>|</span>
                          <span className='px-2 text-primary text-ms font-Georgia'>Oktober</span> 
                       </div>
@@ -48,7 +48,7 @@ function Tanggal() {
                       <div className='flex items-center justify-center'>
                          <span className='px-2 text-primary text-ms font-Georgia'>Sabtu</span>
                          <span className='text-primary'>|</span>
-                         <span className='px-2 text-primary text-2xl font-bold font-Georgia'>28</span>
+                         <span className='px-2 text-primary text-2xl font-bold font-Georgia'>07</span>
                          <span className='text-primary'>|</span>
                          <span className='px-2 text-primary text-ms font-Georgia'>Oktober</span> 
                       </div>

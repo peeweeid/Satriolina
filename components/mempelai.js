@@ -24,7 +24,7 @@ function Mempelai() {
               <p className='text-center mt-5 text-xs lg:text-lg font-Georgia px-8 text-black '>Maha suci Allah SWT yang telah menciptakan makhlukNya Berpasangan.Ya Allah perkenankan kami untuk melaksanakan pernikahan putra - putri kami :</p>
               <h1 className='px-4 text-center mt-10 lg:mt-10 text-3xl lg:text-6xl font-Georgia font-bold text-primary'>Lina Azhari</h1>
               <h1 className='px-12 text-center mt-2 text-xs lg:text-lg font-Georgia  text-black'>putri dari Bpk. Joko Prawoto (Alm) & Ibu Siti Halimah </h1>
-              <h1 className='px-12 text-center mt-2 text-xs lg:text-lg font-Georgia  text-black'>Semarang, Jawa Tengah</h1>
+              <h1 className='px-12 text-center text-xs lg:text-lg font-Georgia  text-black'>Semarang, Jawa Tengah</h1>
               <h1 className='px-4 text-center mt-5 mb-5 text-3xl lg:text-6xl font-Georgia font-bold text-primary'>&</h1>
               <h1 className='px-4 text-center  text-3xl lg:text-6xl font-Georgia font-bold text-primary'>Satrio Adi Wiguno</h1>
               <h1 className='px-12 text-center mt-2 text-xs lg:text-lg font-Georgia  text-black'>putra dari Bpk. Warno (Alm) & Ibu Indasah

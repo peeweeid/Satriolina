@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import f1 from '../public/flower1.png'
+import wedicon from '../public/wedding.ico'
 import f1br from '../public/flower1br.png'
 import Mempelai from '../components/mempelai.js'
 import Tanggal from '../components/Tanggal.js'
@@ -30,7 +31,7 @@ export default function Home() {
       <Head>
         <title>Satrio & Lina</title>
         <meta name="description" content="Undangan Satrio & Lina" />
-        <meta name="f1" content="width=device-width, initial-scale=1" />
+        <meta name="wedicon" content="width=device-width, initial-scale=1" />
       </Head>
       {/* cover */}
       <Cover/>

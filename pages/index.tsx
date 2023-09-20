@@ -30,7 +30,7 @@ export default function Home() {
       <Head>
         <title>Satrio & Lina</title>
         <meta name="description" content="Undangan Satrio & Lina" />
-       
+        <meta name="f1" content="width=device-width, initial-scale=1" />
       </Head>
       {/* cover */}
       <Cover/>

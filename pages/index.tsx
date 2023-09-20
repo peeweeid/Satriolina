@@ -30,8 +30,7 @@ export default function Home() {
       <Head>
         <title>Satrio & Lina</title>
         <meta name="description" content="Undangan Satrio & Lina" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="" href="/favicon.ico" />
+       
       </Head>
       {/* cover */}
       <Cover/>

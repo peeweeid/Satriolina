@@ -32,6 +32,7 @@ export default function Home() {
         <title>Satrio & Lina</title>
         <meta name="description" content="Undangan Satrio & Lina" />
         <meta name="wedicon" content="width=device-width, initial-scale=1" />
+        <link rel="wedicon" href="/favicon.ico" />
       </Head>
       {/* cover */}
       <Cover/>
